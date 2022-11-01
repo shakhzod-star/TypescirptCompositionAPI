@@ -124,6 +124,6 @@ function emitInput(event: any) {
   color: black;
 }
 .input {
-  nma gaplar jigar
+  color: black;
 }
 </style>
