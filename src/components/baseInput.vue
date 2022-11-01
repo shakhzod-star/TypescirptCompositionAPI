@@ -125,6 +125,7 @@ function emitInput(event: any) {
   color: black;
 }
 .input {
- color: black ;
+  background-attachment: fixed;
+  color: green;
 }
 </style>
