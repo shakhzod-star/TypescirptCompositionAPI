@@ -124,6 +124,6 @@ function emitInput(event: any) {
   color: black;
 }
 .input {
-  color: black;
+  color: white;
 }
 </style>
