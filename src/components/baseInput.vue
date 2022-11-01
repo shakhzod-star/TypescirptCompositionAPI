@@ -123,4 +123,7 @@ function emitInput(event: any) {
 .input:focus ~ .placeholder {
   color: black;
 }
+.input {
+  nma gaplar jigar
+}
 </style>
