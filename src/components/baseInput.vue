@@ -129,7 +129,8 @@ function emitInput(event: any) {
   color: red;
   background: red;
 }
-.bratishka {
-  color: aqua;
+
+.jigarlar {
+  color: green;
 }
 </style>
