@@ -130,6 +130,6 @@ function emitInput(event: any) {
   background: red;
 }
 .bratishka {
-  color: ;
+  color: aqua;
 }
 </style>
