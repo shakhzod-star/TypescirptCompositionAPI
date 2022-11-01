@@ -118,12 +118,13 @@ function emitInput(event: any) {
 
 .input:not(:placeholder-shown) ~ .placeholder {
   color: black;
+  background: green;
 }
 
 .input:focus ~ .placeholder {
   color: black;
 }
 .input {
-  color: white;
+ color: black ;
 }
 </style>
