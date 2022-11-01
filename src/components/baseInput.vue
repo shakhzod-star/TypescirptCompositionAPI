@@ -129,7 +129,7 @@ function emitInput(event: any) {
   color: red;
   background: red;
 }
-.jigarlar {
-  color: green;
+.asdadas{
+  color: 'sadasdasda';
 }
 </style>
