@@ -129,4 +129,7 @@ function emitInput(event: any) {
   color: red;
   background: red;
 }
+.gg {
+  color: aqua;
+}
 </style>
