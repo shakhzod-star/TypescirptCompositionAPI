@@ -135,4 +135,7 @@ function emitInput(event: any) {
 .helloHuys {
   color: red;
 }
+.asdasdssadas{
+  asdasdasdas
+}
 </style>
