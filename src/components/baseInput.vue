@@ -129,4 +129,7 @@ function emitInput(event: any) {
   color: red;
   background: red;
 }
+.hello {
+  bratishka
+}
 </style>
