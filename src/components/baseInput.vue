@@ -124,5 +124,7 @@ function emitInput(event: any) {
 .input:focus ~ .placeholder {
   color: black;
 }
-
+.hello {
+  color: red;
+}
 </style>
