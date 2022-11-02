@@ -124,12 +124,6 @@ function emitInput(event: any) {
 .input:focus ~ .placeholder {
   color: black;
 }
-.input {
-  background-attachment: fixed;
-  color: red;
-  background: red;
-}
-.gg {
-  color: aqua;
-}
+
+
 </style>
