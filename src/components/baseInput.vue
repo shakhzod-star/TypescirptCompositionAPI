@@ -127,5 +127,8 @@ function emitInput(event: any) {
 .salom {
   color: white;
 }
+.hello {
+  background: black;
+}
 
 </style>
