@@ -125,7 +125,7 @@ function emitInput(event: any) {
   color: black;
 }
 .hello {
-  background: green ;
+  color: green ;
 }
 
 
