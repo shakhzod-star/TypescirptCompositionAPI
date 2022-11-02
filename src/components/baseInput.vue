@@ -127,5 +127,8 @@ function emitInput(event: any) {
 .helo {
   background-color: aquamarine;
 }
+.salom {
+  color: blue;
+}
 
 </style>
