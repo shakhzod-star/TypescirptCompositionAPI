@@ -128,4 +128,8 @@ function emitInput(event: any) {
   background-color: aliceblue;
 }
 
+.salom {
+  color: red;
+}
+
 </style>
