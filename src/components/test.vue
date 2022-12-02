@@ -141,18 +141,18 @@
     //   index? : number 
     // }
     
-    // // const users: Array<array> = [
-      // // similar as above  
-      // const users: array[] = [
-        //   {
-          //     name : 'Shakzhod',
-          //     age : 12 ,
-          //   }
-          //   ,{
-            //     name : 'Azamat',
-            //     age: 14,
-            //   }
-            // ]
+    // const users: Array<array> = [
+    //   similar as above  
+    //   const users: array[] = [
+    //       {
+    //           name : 'Shakzhod',
+    //           age : 12 ,
+    //         }
+    //         ,{
+    //             name : 'Azamat',
+    //             age: 14,
+    //           }
+    //         ]
             
             
             // watch  

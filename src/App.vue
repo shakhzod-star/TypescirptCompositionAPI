@@ -3,8 +3,8 @@ import { ref } from "vue";
 const colors: string[] =  ['pink','green','yellow','blue']
 let show = ref<boolean>(true)
 
-</script>
 
+</script>
 <template>
   <div>
     <!--1 <div v-hello="'Nodir'"></div> -->
