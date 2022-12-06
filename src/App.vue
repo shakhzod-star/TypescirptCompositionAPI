@@ -1,24 +1,15 @@
 <script setup lang="ts">
-import { ref } from "vue";
-const colors: string[] =  ['pink','green','yellow','blue']
-let show = ref<boolean>(true)
-
-
+// import { ref } from "vue";
+// const colors: string[] =  ['pink','green','yellow','blue']
+// let show = ref<boolean>(true)
+// import Footer from './creatt/Footer.vue'
+// import About from './creatt/About.vue'
+import Count from   './creatt/riseCount.vue'
 </script>
 <template>
-  <div>
-    <!--1 <div v-hello="'Nodir'"></div> -->
-    <!--2 <div v-switch-color="['pink','green','yellow','blue']">Vue school</div> -->
-    <!--3 <div v-switch-color:slow="colors">Vue school</div> -->
-     <!-- <div v-switch-color.textcenter.underline="colors">Vue school</div> -->
-    <div  v-switching-color:fast.textcenter="colors"
-      v-if="show"
-    >
-      Vue School
-    </div>
-    <button @click="show = !show">toggle</button>
-
-  </div>
+  <Count/>
+  <!-- <About /> -->
+  <!-- <Footer/> -->
 </template>
 
 <style>
