@@ -13,17 +13,25 @@ module.exports = {
         blueColor: '#2E5A81',
         blackColor: '#182F43',
         orangeColor : '#FF7D44',
-        bgBlock: '#D9D9D9'
-
-      },
-      boxShadow: {
-        'bxShadow': '0px 0px 8px rgba(0, 0, 0, 0.1)',
-        'modalShadow': '0px 4px 20px rgba(0, 0, 0, 0.25)',
+        bgBlock: '#D9D9D9',
+        bgFooter : '#282828'
+      
       },
       backgroundImage: {
         'transport': "url('./src/assets/CreateImg/transport.jpg')",
+        'Gradient' : 'linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(.jpg)'
+      },
+      height: {
+        '333' : '333px'
+      },
+      spacing: {
+        '15px': '15px',
+      },
+      screens:{
+
       }
     },
+
   },
   plugins: [],
 }

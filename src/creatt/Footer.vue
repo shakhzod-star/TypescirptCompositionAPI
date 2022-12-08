@@ -1,39 +1,39 @@
 <template>
-    <div class="footer px-40 max-w-[1440px] mx-auto">
-        <div class="flex justify-center items-start pt-[75px] mb-8">
-            <ul class="flex flex-col mr-[121px] max-w-[354px]">
-                <li class="mb-6"><img src="../assets/CreateImg/CREATT.png" alt=""></li>
-                <li class="mb-8">Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Sed porttitor lectus nibh.</li>
-                <li class="flex justify-start">
-                    <img class="mr-3 w-7 h-7" src="../assets/CreattIcons/facebook.svg" alt="">
-                    <img class="mr-3 w-7 h-7" src="../assets/CreattIcons/twitter.svg" alt="">
-                    <img class="mr-3 w-7 h-7" src="../assets/CreattIcons/in.svg" alt="">
-                    <img class="mr-3 w-7 h-7" src="../assets/CreattIcons/youTube.svg" alt="">
-                    <img src="../assets/CreattIcons/insta.svg" alt="">
+    <div class=" px-5 2xl:px-40 py-12 max-w-[1440px] mx-auto bg-[#282828]">
+        <div class="flex flex-col sm:flex-row items-center justify-center ">
+            <ul class="flex flex-col items-center justify-between mr-0 2xl:mr-[121px] max-w-[354px]">
+                <li class="mx-auto  w-[200px] mb-[50px] "><img src="../assets/CreateImg/Logo.png" alt=""></li>
+                <li class="hidden regular text-base mt-4  mb-6 text-white">Transportation Services that you can trust</li>
+                <li class="hidden justify-start items-center  text-white opacity-30 mt-14">
+                    Copyright © All rights reserved
                 </li>
             </ul>
-            <ul class="flex flex-col  mr-24">
-                <li class="mb-4 text-blackColor">Our Services</li>
-                <li class="mb-3 text-blueColor">Car Shipments</li>
-                <li class="mb-3 text-blueColor">Motorcycle shipments</li>
-                <li class="mb-3 text-blueColor">Heavy Equipment</li>
-                <li class="mb-3 text-blueColor">Luxury Cars shipment</li>
-                <li class="text-blueColor">All Services</li>
-            </ul>
-            <ul class="flex flex-col mr-24">
-                <li class="mb-4 text-blackColor">Shipping Methods</li>
-                <li class="mb-3 text-blueColor">Rail Freight</li>
-                <li class="mb-3 text-blueColor">Truck Transport</li>
-                <li class="text-blueColor">Air Transport</li>
-            </ul>
-            <ul class="flex flex-col">
-                <li class="mb-4 text-blackColor">About Us</li>
-                <li class="mb-3 text-blueColor">Our Company</li>
-                <li class="mb-3 text-blueColor">F.A.Q.</li>
-                <li class="mb-3 text-blueColor">Contact us</li>
-                <l class="text-blueColor">Terms of Service</l>
-            </ul>
+            <div class="flex  flex-col sm:flex-row">
+                <ul class="flex flex-col items-center mr-0 2xl:mr-24 mb-[30px]">
+                    <li class="mb-4 text-white opacity-80   text-xl semibold">Our Services</li>
+                    <li class="mb-3 text-white  opacity-60 regular text-[17px] leading-[21px]"> <a href="">Car Shipments</a></li>
+                    <li class="mb-3 text-white  opacity-60 regular text-[17px] leading-[21px]"> <a href="">Motorcycle shipments</a> </li>
+                    <li class="mb-3 text-white  opacity-60 regular text-[17px] leading-[21px]"> <a href="">Heavy Equipment</a> </li>
+                    <li class="mb-3 text-white  opacity-60 regular text-[17px] leading-[21px]"> <a href="">Luxury Cars shipment</a> </li>
+                    <li class="text-white  opacity-60"> <a href="">All Services</a> </li>
+                </ul>
+                <ul class="flex flex-col items-center mr-0  2xl:mr-24 mb-[30px] ">
+                    <li class="mb-4 text-white opacity-80 text-xl semibold"> Shipping Methods</li>
+                    <li class="mb-3 text-white opacity-60 regular text-[17px] leading-[21px]  "> <a href="">Rail Freight</a> </li>
+                    <li class="mb-3 text-white opacity-60 regular text-[17px] leading-[21px] "> <a href="">Truck Transport</a> </li>
+                    <li class="text-white opacity-60 regular text-[17px] leading-[21px]"> <a href="">Air Transport</a> </li>
+                </ul>
+                <ul class="flex flex-col items-center mb-20">
+                    <li class="mb-4 text-white opacity-80 text-xl semibold"> About Us </li>
+                    <li class="mb-3 text-white opacity-60 regular text-[17px] leading-[21px]"> <a href="">Our Company</a> </li>
+                    <li class="mb-3 text-white opacity-60 regular text-[17px] leading-[21px]"> <a href="">F.A.Q.</a> </li>
+                    <li class="mb-3 text-white opacity-60 regular text-[17px] leading-[21px]"> <a href="">Contact us</a> </li>
+                    <l class="text-white opacity-60 "> <a href="">Terms of Service</a> </l>
+                </ul>
+                <div class="flex justify-start items-center  text-white opacity-30 mt-14 sm:hidden">
+                    Copyright © All rights reserved
+                </div>
+            </div>
         </div>
-        <div class=" mt-2 py-8 text-center border-t-2 border-[#EBF2F8]">Copyright © All rights reserved </div>
     </div>
 </template>
